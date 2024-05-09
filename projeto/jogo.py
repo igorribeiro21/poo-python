@@ -24,7 +24,7 @@ class Personagem:
     def receber_ataque(self,dano):
         self.__vida -= dano
         if self.__vida <= 0:
-            self__vida = 0
+            self.__vida = 0
     
     def atacar(self, alvo):
         dano = random.randint(self.get_nivel() * 2,self.get_nivel() * 4)  # baseado no nível
